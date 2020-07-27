@@ -20,4 +20,9 @@ public class BaseController {
     public String HelloWordDemo1(){
         return "Hello Word Demo111!!!";
     }
+
+    @GetMapping(value = "demo2")
+    public String HelloWordDemo2(){
+        return "Hello Word Demo222!!!";
+    }
 }
